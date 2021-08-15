@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+.HeaderSLiderSection {
+    position: absolute;
+    background: url('../../img/desktop/image-header.jpg') #3dbeff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+
+    .headerText {
+        color: white;
+        margin-top: 110px;
+        font-family: 'Fraunces';
+        font-size: 100px;
+        letter-spacing: 8px;
+    }
+
+    .arrowDown {
+        margin-top: 30px;
+        height: 170px;
+    }
+}

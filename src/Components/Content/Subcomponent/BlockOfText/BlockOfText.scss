@@ -1,0 +1,9 @@
+.blockOfTextSection{
+    position:absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    top: 100%;
+    z-index: 100;
+    color: red;
+}
