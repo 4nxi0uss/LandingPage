@@ -5,7 +5,7 @@ import BlockOfText from "./Subcomponent/BlockOfText/BlockOfText";
 
 const Content = () => {
     return (
-        <main>
+        <main className='mainContent'>
             <BlockOfText />
         </main>
     );
