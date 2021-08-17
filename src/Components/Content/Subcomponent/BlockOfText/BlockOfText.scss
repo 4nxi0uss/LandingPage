@@ -2,32 +2,22 @@
 
 
 .blockOfTextSection {
-    position: absolute;
+    position: relative;
     display: grid;
     grid-template-columns: 951.5px 951.5px;
-    // grid-template-columns: 720px 720px;
-    // grid-template-columns: 1fr 1fr;
     grid-template-rows: 793px 793px;
-    // grid-template-rows: 600px 600px;
-    // grid-template-rows: 1fr 1fr;
-    top: 100%;
     width: 100%;
     column-gap: 0px;
     row-gap: 0px;
-justify-content: center;
+    justify-content: center;
 
     .transform {
         position: static;
         padding-top: 15%;
         background-color: rgba(153, 205, 50, 0.432);
         height: calc(97% - 15%);
-        // height: calc(600px - 15%);
-        // width: 100%;
         width: 951.5px;
-        // width: 100%;
-        // width: 720px;
         text-align: left;
-        // margin-left: 150px;
         grid-column: 1/2;
         grid-row: 1/2;
 
@@ -51,8 +41,6 @@ justify-content: center;
         .transformBtn {
             margin-left: 21.5%;
         }
-
-
     }
 
     .egg {
@@ -61,7 +49,6 @@ justify-content: center;
         grid-column: 2/3;
         grid-row: 1/2;
         width: 951.5px;
-        // width: 100%;
     }
 
     .standOut {
@@ -69,21 +56,37 @@ justify-content: center;
         padding-top: 15%;
         background-color: rgba(153, 205, 50, 0.432);
         height: calc(97% - 15%);
-        // height: calc(600px - 15%);
         width: 951.5px;
-        // width: 100%;
-        // width: 720px;
         text-align: left;
-        // margin-left: 150px;
         grid-column: 2/3;
         grid-row: 2/3;
+
+        .standOutTitle {
+            position: relative;
+            left: 50%;
+            text-align: left;
+            transform: translateX(-50%);
+            font-family: 'Fraunces';
+            font-size: 45px;
+            font-weight: 900;
+            padding: 0% 21.5%;
+        }
+
+        .standOutParagraph {
+            position: relative;
+            text-align: left;
+            padding: 0% 21.5%;
+        }
+
+        .standOutBtn {
+            margin-left: 21.5%;
+        }
     }
 
     .glass {
         margin: 0px;
         padding: 0px;
         width: 951.5px;
-        // width: 100%;
         grid-column: 1/2;
         grid-row: 2;
     }
@@ -92,13 +95,11 @@ justify-content: center;
         margin: 0px;
         padding: 0px;
         width: 951.5px;
-        // width: 100%;
     }
 
     .photography {
         margin: 0px;
         padding: 0px;
         width: 951.5px;
-        // width: 100%;
     }
 }

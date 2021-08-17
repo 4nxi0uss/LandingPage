@@ -20,7 +20,7 @@ const BlockOfText = () => {
             <div className='standOut'>
                 <h2 className='standOutTitle'>Stand out to the right audience</h2>
                 <p className='standOutParagraph'>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-                <button>Learn more</button>
+                <button className='standOutBtn'>Learn more</button>
             </div>
             <img className="glass" src={glass} alt="glass" />
             <img className="graphicDesign" src={graphicDesign} alt="graphic Design" />

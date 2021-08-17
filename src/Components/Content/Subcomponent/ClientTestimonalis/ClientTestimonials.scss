@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces');
+
+.clientTestimonials {
+    position: relative;
+    // height: 500px;
+    margin: 100px 0px 100px 0px;
+
+    .clientTestimonialsHeader {
+        margin-bottom: 100px;
+        font-family: 'Fraunces';
+        font-weight: 700;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: hsla(232, 10%, 55%, 0.712);
+    }
+
+    .clientWraper {
+        display: flex;
+        flex-direction: row;
+
+        .client {
+
+            .clientImg {
+                border-radius: 100px;
+                height: 72px;
+                margin-bottom: 50px;
+            }
+
+            .clientText {
+                position: relative;
+                font-size: 18px;
+                font-weight: 600;
+                font-family: 'Barlow';
+                text-align: center;
+                left: 50%;
+                width: 50%;
+                transform: translateX(-50%);
+                color: hsl(212, 27%, 19%);
+            }
+
+            .clientName {
+                margin-top: 70px;
+                font-family: 'Fraunces';
+                font-weight: 900;
+                font-size: 18px;
+            }
+
+            .clientPosition {
+                letter-spacing: 0px;
+                color: hsl(210, 4%, 67%);
+                font-family: 'Barlow';
+                font-weight: 500;
+            }
+        }
+    }
+
+}
