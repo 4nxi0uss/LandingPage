@@ -5,7 +5,7 @@
     position: relative;
     // height: 500px;
     margin: 100px 0px 100px 0px;
-
+    
     .clientTestimonialsHeader {
         margin-bottom: 100px;
         font-family: 'Fraunces';
@@ -14,10 +14,11 @@
         text-transform: uppercase;
         color: hsla(232, 10%, 55%, 0.712);
     }
-
+    
     .clientWraper {
         display: flex;
         flex-direction: row;
+        justify-content: center;
 
         .client {
 
