@@ -1,20 +1,31 @@
-import * as React from 'react';
-
 import logo from '../../img/logo.svg'
 
 import './Header.scss'
 
 const Header = () => {
-
+    const burger = document.getElementsByClassName('menu-btn')
+    const mobileNav = document.getElementsByClassName('mobileNav')
+    console.log(window.innerWidth)
     return (
         <header className='header'>
+
             <img className='logo' src={logo} alt="Logo Sunnyside" />
-            <div className='btnDiv'>
-                <button className='btnAbout btn'>About</button>
-                <button className='btnServices btn'>Services</button>
-                <button className='btnProjects btn'>Projects</button>
-                <button className='btnContact btn'>Contact</button>
-            </div>
+            <nav className='desktopNav'>
+                <a href='#/' className='btnAbout btn'>About</a>
+                <a href='#/' className='btnServices btn'>Services</a>
+                <a href='#/' className='btnProjects btn'>Projects</a>
+                <a href='#/' className='btnContact btn'>Contact</a>
+            </nav>
+            {window.innerWidth <= 425 && <div className="menu-btn" onClick={() => { burger[0]?.classList.toggle('open'); mobileNav[0]?.classList.toggle('active') }}>
+                <div className="menu-btn__burger"></div>
+            </div>}
+
+            {window.innerWidth <= 425 && <nav className='mobileNav'>
+                <a href='#/' className='btnAbout btn'>About</a>
+                <a href='#/' className='btnServices btn'>Services</a>
+                <a href='#/' className='btnProjects btn'>Projects</a>
+                <a href='#/' className='btnContact btn'>Contact</a>
+            </nav>}
         </header>
     )
 }

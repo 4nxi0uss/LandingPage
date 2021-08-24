@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import arrowDown from '../../img/icon-arrow-down.svg'
 
 import './HeaderSlider.scss'
