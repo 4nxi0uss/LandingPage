@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces');
 
+
 .clientTestimonials {
     position: relative;
-    // height: 500px;
     margin: 100px 0px 100px 0px;
 
     .clientTestimonialsHeader {
@@ -58,4 +58,67 @@
         }
     }
 
+}
+
+@media screen and (max-width: 320px) {
+
+    .clientTestimonials {
+        position: relative;
+        margin: 100px 0px 100px 0px;
+    
+        .clientTestimonialsHeader {
+            margin-bottom: 100px;
+            font-family: 'Fraunces';
+            font-weight: 700;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: hsla(232, 10%, 55%, 0.712);
+            text-align: center;
+        }
+    
+        .clientWraper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+    
+            .client {
+    
+                .clientImg {
+                    border-radius: 100px;
+                    height: 72px;
+                    margin-bottom: 15.5%;
+                    // margin-bottom: 50px;
+                }
+    
+                .clientText {
+                    position: relative;
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: 'Barlow';
+                    text-align: center;
+                    width: auto;
+                    padding: 0% 2%;
+                    color: hsl(232, 10%, 55%);
+                }
+    
+                .clientName {
+                    margin-top: 0%;
+                    margin-bottom: 2%;
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    font-size: 18px;
+                }
+    
+                .clientPosition {
+                    letter-spacing: 0px;
+                    color: hsl(210, 4%, 67%);
+                    font-family: 'Barlow';
+                    font-weight: 500;
+                    margin: 0% 0% 18% 0%;
+                }
+            }
+        }
+    
+    }
 }
