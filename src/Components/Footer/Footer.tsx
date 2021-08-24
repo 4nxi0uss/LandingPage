@@ -1,6 +1,5 @@
 
 import Logo from '../../img/logoFooter.svg'
-// import { ReactComponent as ReactLogo } from '../../img/logo.svg'
 import fb from '../../img/icon-facebook.svg'
 import inst from '../../img/icon-instagram.svg'
 import twitter from '../../img/icon-twitter.svg'
@@ -12,8 +11,6 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <img className='footerLogo' src={Logo} alt="sunnyside logo" />
-            {/* <ReactLogo /> */}
-
 
             <div className='btnWraper'>
                 <button className='footerAboutBtn'>About</button>
