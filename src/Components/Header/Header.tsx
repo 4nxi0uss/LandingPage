@@ -16,11 +16,11 @@ const Header = () => {
                 <a href='#/' className='btnProjects btn'>Projects</a>
                 <a href='#/' className='btnContact btn'>Contact</a>
             </nav>
-            {window.innerWidth <= 425 && <div className="menu-btn" onClick={() => { burger[0]?.classList.toggle('open'); mobileNav[0]?.classList.toggle('active') }}>
+            {window.innerWidth <= 576 && <div className="menu-btn" onClick={() => { burger[0]?.classList.toggle('open'); mobileNav[0]?.classList.toggle('active') }}>
                 <div className="menu-btn__burger"></div>
             </div>}
 
-            {window.innerWidth <= 425 && <nav className='mobileNav'>
+            {window.innerWidth <= 576 && <nav className='mobileNav'>
                 <a href='#/' className='btnAbout btn'>About</a>
                 <a href='#/' className='btnServices btn'>Services</a>
                 <a href='#/' className='btnProjects btn'>Projects</a>

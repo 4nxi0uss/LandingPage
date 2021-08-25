@@ -3,7 +3,6 @@
 
 .footer {
     position: relative;
-    //  height: 300px;
     width: 100%;
     bottom: 0%;
     background-color: #90d4c5;
@@ -14,11 +13,6 @@
     .footerLogo {
         padding: 25px 0px;
         height: 48px;
-        // stroke-width: 10px;
-        //  color: hsl(168, 34%, 41%); 
-        //  background: transparent;
-        //  background-color: hsl(168, 34%, 41%);
-
     }
 
     .btnWraper {
@@ -37,16 +31,6 @@
             font-size: 18px;
             margin: 0% 1.5%;
         }
-
-        //  .footerAboutBtn{
-
-        //  }
-        //  .footerServicesBtn{
-
-        //  }
-        //  .footerProjectsBtn{
-
-        //  }
     }
 
     .socialIconWraper {
@@ -56,15 +40,13 @@
         justify-content: center;
 
         img {
-            // margin-right: 1.5%;
             margin: 0% 0.8%;
-            // margin-left: 1.5%;
             padding-top: 2%;
         }
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
 
     .footer {
         position: relative;
@@ -76,9 +58,8 @@
     
     
         .footerLogo {
-            padding: 8% 0%;
-            // padding: 25px 0px;
-            height: 36px;
+            padding: 4% 0% 8% 0%;
+            height: 10vw;
         }
     
         .btnWraper {
@@ -94,7 +75,7 @@
                 padding-bottom: 35px;
                 font-family: 'Barlow';
                 font-weight: 600;
-                font-size: 18px;
+                font-size: 4.5vw;
                 margin: 0% 1.5%;
             }
         }
@@ -107,10 +88,58 @@
             margin-top: 5%;
     
             img {
-                // margin-right: 1.5%;
                 margin: 0% 1%;
-                // margin-left: 1.5%;
                 padding: 5%;
+                height: 4vw;
+            }
+        }
+    }
+}
+@media screen and (min-width: 576px) {
+
+    .footer {
+        position: relative;
+        width: 100%;
+        bottom: 0%;
+        background-color: #90d4c5;
+        text-align: center;
+        padding: 12% 0;
+    
+    
+        .footerLogo {
+            padding: 4% 0% 8% 0%;
+            height: 10vw;
+        }
+    
+        .btnWraper {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+    
+            button {
+                background: transparent;
+                border: none;
+                color: hsl(168, 34%, 41%);
+                padding-bottom: 35px;
+                font-family: 'Barlow';
+                font-weight: 600;
+                font-size: 4.5vw;
+                margin: 0% 1.5%;
+            }
+        }
+    
+        .socialIconWraper {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 5%;
+    
+            img {
+                margin: 0% 1%;
+                padding: 5%;
+                height: 4vw;
             }
         }
     }

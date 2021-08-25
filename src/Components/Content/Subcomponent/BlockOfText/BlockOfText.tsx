@@ -22,7 +22,7 @@ const BlockOfText = () => {
                 </div>
             </div>
 
-            {window.innerWidth <= 425 ? <img className="egg" src={eggMobile} alt="egg" /> : <img className="egg" src={egg} alt="egg" />}
+            {window.innerWidth <= 576 ? <img className="egg" src={eggMobile} alt="egg" /> : <img className="egg" src={egg} alt="egg" />}
 
             <div className='standOut'>
                 <h2 className='standOutTitle'>Stand out to the right audience</h2>
@@ -36,10 +36,10 @@ const BlockOfText = () => {
 
             </div>
 
-            {window.innerWidth <= 425 ? <img className="glass" src={glassMobile} alt="glass" /> : <img className="glass" src={glass} alt="glass" />}
+            {window.innerWidth <= 576 ? <img className="glass" src={glassMobile} alt="glass" /> : <img className="glass" src={glass} alt="glass" />}
 
             <div className="graphicDesign">
-                {window.innerWidth <= 425 ? <img className="graphicDesignImg" src={graphicDesignMoblie} alt="graphic Design" /> : <img className="graphicDesignImg" src={graphicDesign} alt="graphic Design" />}
+                {window.innerWidth <= 576 ? <img className="graphicDesignImg" src={graphicDesignMoblie} alt="graphic Design" /> : <img className="graphicDesignImg" src={graphicDesign} alt="graphic Design" />}
                 <div className="graphicDesignContent">
                     <h2 className="graphicDesignHeader">Graphic Design</h2>
                     <p className="graphicDesignText">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
@@ -47,7 +47,7 @@ const BlockOfText = () => {
             </div>
 
             <div className="photography">
-                {window.innerWidth <= 425 ? <img className="photographyImg" src={photographyMobile} alt="photography" /> : <img className="photographyImg" src={photography} alt="photography" />}
+                {window.innerWidth <= 576 ? <img className="photographyImg" src={photographyMobile} alt="photography" /> : <img className="photographyImg" src={photography} alt="photography" />}
                 <div className="photographyContent">
                     <h2 className="photographyHeader">Photography</h2>
                     <p className="photographyText">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
