@@ -204,19 +204,19 @@
         background-color: #90d4c5;
         text-align: center;
         padding: 2.5% 0;
-    
-    
+
+
         .footerLogo {
             padding: 2% 0% 4% 0%;
             height: 4vw;
         }
-    
+
         .btnWraper {
             position: relative;
             display: flex;
             flex-direction: row;
             justify-content: center;
-    
+
             button {
                 background: transparent;
                 border: none;
@@ -228,14 +228,14 @@
                 margin: 0% 1.5%;
             }
         }
-    
+
         .socialIconWraper {
             position: relative;
             display: flex;
             flex-direction: row;
             justify-content: center;
             margin-top: 2%;
-    
+
             img {
                 margin: 0% 1%;
                 padding: 2%;
@@ -244,6 +244,7 @@
         }
     }
 }
+
 @media screen and (min-width: 1200px) {
     .footer {
         position: relative;
@@ -252,19 +253,19 @@
         background-color: #90d4c5;
         text-align: center;
         padding: 2.5% 0;
-    
-    
+
+
         .footerLogo {
             padding: 2% 0% 4% 0%;
             height: 4vw;
         }
-    
+
         .btnWraper {
             position: relative;
             display: flex;
             flex-direction: row;
             justify-content: center;
-    
+
             button {
                 background: transparent;
                 border: none;
@@ -274,16 +275,75 @@
                 font-weight: 600;
                 font-size: 1.7vw;
                 margin: 0% 1.5%;
+                transition: .3s;
+            }
+
+            button:hover {
+                color: white;
             }
         }
-    
+
         .socialIconWraper {
             position: relative;
             display: flex;
             flex-direction: row;
             justify-content: center;
             margin-top: 2%;
-    
+
+            img {
+                margin: 0% 1%;
+                padding: 2%;
+                height: 2vw;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .footer {
+        position: relative;
+        width: 100%;
+        bottom: 0%;
+        background-color: #90d4c5;
+        text-align: center;
+        padding: 2.5% 0;
+
+
+        .footerLogo {
+            padding: 2% 0% 4% 0%;
+            height: 4vw;
+        }
+
+        .btnWraper {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            button {
+                background: transparent;
+                border: none;
+                color: hsl(168, 34%, 41%);
+                padding-bottom: 35px;
+                font-family: 'Barlow';
+                font-weight: 600;
+                font-size: 1.7vw;
+                margin: 0% 1.5%;
+                transition: .3s;
+            }
+
+            button:hover {
+                color: white;
+            }
+        }
+
+        .socialIconWraper {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2%;
+
             img {
                 margin: 0% 1%;
                 padding: 2%;

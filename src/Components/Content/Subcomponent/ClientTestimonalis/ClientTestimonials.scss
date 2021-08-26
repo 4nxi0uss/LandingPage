@@ -259,7 +259,7 @@
     .clientTestimonials {
         position: relative;
         margin: 100px 0px 100px 0px;
-    
+
         .clientTestimonialsHeader {
             margin-bottom: 100px;
             font-family: 'Fraunces';
@@ -270,41 +270,42 @@
             color: hsla(232, 10%, 55%, 0.712);
             text-align: center;
         }
-    
+
         .clientWraper {
             display: flex;
             flex-direction: row;
             justify-content: center;
             text-align: center;
             flex-wrap: nowrap;
-    
+
             .client {
-    
+
                 .clientImg {
                     border-radius: 100px;
                     height: 7vw;
                     margin-bottom: 50px;
                 }
-    
+
                 .clientText {
                     position: relative;
-                    width: 50%;
-                    font-size: 1.7vw;
+                    width: 80%;
+                    font-size: 1.5vw;
                     font-weight: 600;
                     font-family: 'Barlow';
                     text-align: center;
                     left: 50%;
                     transform: translateX(-50%);
-                    color: hsl(232, 10%, 55%);;
+                    color: hsl(232, 10%, 55%);
+                    ;
                 }
-    
+
                 .clientName {
                     margin-top: 70px;
                     font-family: 'Fraunces';
                     font-weight: 900;
                     font-size: 1.5vw;
                 }
-    
+
                 .clientPosition {
                     letter-spacing: 0px;
                     color: hsl(210, 4%, 67%);
@@ -314,68 +315,134 @@
                 }
             }
         }
-    
+
     }
 }
+
 @media screen and (min-width: 1200px) {
     .clientTestimonials {
         position: relative;
         margin: 100px 0px 100px 0px;
-    
+
         .clientTestimonialsHeader {
             margin-bottom: 100px;
             font-family: 'Fraunces';
             font-weight: 700;
-            font-size: 2vw;
+            font-size: 2.2vw;
             letter-spacing: 5px;
             text-transform: uppercase;
             color: hsla(232, 10%, 55%, 0.712);
             text-align: center;
         }
-    
+
         .clientWraper {
             display: flex;
             flex-direction: row;
             justify-content: center;
             text-align: center;
             flex-wrap: nowrap;
-    
+
             .client {
-    
+
                 .clientImg {
                     border-radius: 100px;
                     height: 7vw;
                     margin-bottom: 50px;
                 }
-    
+
                 .clientText {
                     position: relative;
-                    width: 50%;
-                    font-size: 1.7vw;
+                    width: 80%;
+                    font-size: 1.5vw;
                     font-weight: 600;
                     font-family: 'Barlow';
                     text-align: center;
                     left: 50%;
                     transform: translateX(-50%);
-                    color: hsl(232, 10%, 55%);;
+                    color: hsl(232, 10%, 55%);
+                    ;
                 }
-    
+
                 .clientName {
                     margin-top: 70px;
                     font-family: 'Fraunces';
                     font-weight: 900;
-                    font-size: 1.5vw;
+                    font-size: 1.6vw;
                 }
-    
+
                 .clientPosition {
                     letter-spacing: 0px;
                     color: hsl(210, 4%, 67%);
                     font-family: 'Barlow';
                     font-weight: 500;
-                    font-size: 1.5vw;
+                    font-size: 1.3vw;
                 }
             }
         }
-    
+
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .clientTestimonials {
+        position: relative;
+        margin: 100px 0px 100px 0px;
+
+        .clientTestimonialsHeader {
+            margin-bottom: 100px;
+            font-family: 'Fraunces';
+            font-weight: 700;
+            font-size: 2.2vw;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: hsla(232, 10%, 55%, 0.712);
+            text-align: center;
+        }
+
+        .clientWraper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            flex-wrap: nowrap;
+
+            .client {
+
+                .clientImg {
+                    border-radius: 100px;
+                    height: 7vw;
+                    margin-bottom: 50px;
+                }
+
+                .clientText {
+                    position: relative;
+                    width: 80%;
+                    font-size: 1.5vw;
+                    font-weight: 600;
+                    font-family: 'Barlow';
+                    text-align: center;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    color: hsl(232, 10%, 55%);
+                    ;
+                }
+
+                .clientName {
+                    margin-top: 70px;
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    font-size: 1.6vw;
+                }
+
+                .clientPosition {
+                    letter-spacing: 0px;
+                    color: hsl(210, 4%, 67%);
+                    font-family: 'Barlow';
+                    font-weight: 500;
+                    font-size: 1.3vw;
+                }
+            }
+        }
+
     }
 }

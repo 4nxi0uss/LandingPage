@@ -1044,7 +1044,218 @@ $font-size-header: 300%;
         }
     }
 }
+
 @media screen and (min-width: 1200px) {
+    .blockOfTextSection {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // grid-template-rows: repeat(2, 1fr);
+        width: 100%;
+        column-gap: 0px;
+        row-gap: 0px;
+        justify-content: center;
+
+        div,
+        img {
+            width: 100%;
+        }
+
+        .transform {
+            position: static;
+            text-align: left;
+            grid-column: 1/2;
+            grid-row: 1/2;
+
+            .transformTitle {
+                position: relative;
+                margin-top: 5%;
+                left: 50%;
+                text-align: left;
+                transform: translateX(-50%);
+                font-family: 'Fraunces';
+                font-size: 4vw;
+                font-weight: 900;
+                padding: 0% 15%;
+            }
+
+            .transformParagraph {
+                position: relative;
+                text-align: left;
+                padding: 0% 15%;
+                font-size: 1.34vw;
+                font-weight: 600;
+            }
+
+            .transformDivBtn {
+                position: relative;
+                margin-left: 15%;
+                max-width: 60%;
+
+                .transformBtn {
+
+                    font-size: 1.2vw;
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    border: none;
+                    background: none;
+                    padding: 0%;
+                    cursor: pointer;
+                }
+
+                hr {
+                    position: relative;
+                    border: 5px solid rgba(250, 224, 76, 0.459);
+                    border-radius: 100px;
+                    width: 30%;
+                    z-index: -1;
+                    left: -38%;
+                    margin-top: -10px;
+                    padding: 0%;
+                }
+            }
+
+            .transformDivBtn:hover {
+                hr {
+                    border: 5px solid gold;
+                }
+            }
+        }
+
+        .egg {
+            margin: 0px;
+            padding: 0px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .standOut {
+            position: static;
+            text-align: left;
+            grid-column: 2/3;
+            grid-row: 2/3;
+
+            .standOutTitle {
+                position: relative;
+                margin-top: 5%;
+                left: 50%;
+                text-align: left;
+                transform: translateX(-50%);
+                font-family: 'Fraunces';
+                font-size: 4vw;
+                font-weight: 900;
+                padding: 0% 15%;
+            }
+
+            .standOutParagraph {
+                position: relative;
+                text-align: left;
+                padding: 0% 15%;
+                font-size: 1.34vw;
+                font-weight: 600;
+            }
+
+            .standOutDivBtn {
+                position: relative;
+                margin-left: 15%;
+                max-width: 60%;
+
+                .standOutBtn {
+                    position: relative;
+                    font-size: 1.2vw;
+                    font-family: 'Fraunces';
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    border: none;
+                    background: none;
+                    padding: 0%;
+                    cursor: pointer;
+                }
+
+                hr {
+                    position: relative;
+                    border: 5px solid rgba(255, 160, 160, 0.568);
+                    border-radius: 100px;
+                    width: 30%;
+                    z-index: -1;
+                    left: -38%;
+                    margin-top: -10px;
+                    padding: 0%;
+                }
+            }
+
+            .standOutDivBtn:hover {
+                hr {
+                    border: 5px solid rgba(255, 29, 29, 0.568);
+
+                }
+            }
+        }
+
+        .glass {
+            margin: 0px;
+            padding: 0px;
+            grid-column: 1/2;
+            grid-row: 2;
+        }
+
+        .graphicDesign {
+            color: #255b4e;
+            grid-column: 1;
+            grid-row: 3;
+
+        }
+
+        .photography {
+            color: #1a526d;
+            grid-column: 2;
+            grid-row: 3;
+        }
+
+        .graphicDesign,
+        .photography {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .graphicDesignContent,
+        .photographyContent {
+            position: absolute;
+            bottom: 3%;
+        }
+
+        .graphicDesignImg,
+        .photographyImg {
+            position: relative;
+        }
+
+        .graphicDesignHeader,
+        .photographyHeader {
+            position: relative;
+            text-align: center;
+            font-size: 2.8vw;
+            font-weight: 900;
+        }
+
+        .graphicDesignText,
+        .photographyText {
+            position: relative;
+            max-width: 65%;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 500;
+            font-size: 1.5vw;
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
     .blockOfTextSection {
         position: relative;
         display: grid;

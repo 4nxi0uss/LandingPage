@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
+
     img {
         width: 25%;
     }
@@ -59,12 +59,13 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        
+
         img {
             width: 25%;
         }
-    } 
+    }
 }
+
 @media screen and (min-width: 1200px) {
     .DownGalery {
         position: relative;
@@ -72,9 +73,23 @@
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-        
+
         img {
             width: 25%;
         }
-    } 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .DownGalery {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img {
+            width: 25%;
+        }
+    }
 }
