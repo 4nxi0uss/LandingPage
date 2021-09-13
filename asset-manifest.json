@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/landing-page-practice/static/css/main.4f43f622.chunk.css",
-    "main.js": "/landing-page-practice/static/js/main.7378fd5f.chunk.js",
-    "main.js.map": "/landing-page-practice/static/js/main.7378fd5f.chunk.js.map",
+    "main.css": "/landing-page-practice/static/css/main.c8f60cbc.chunk.css",
+    "main.js": "/landing-page-practice/static/js/main.89c44774.chunk.js",
+    "main.js.map": "/landing-page-practice/static/js/main.89c44774.chunk.js.map",
     "runtime-main.js": "/landing-page-practice/static/js/runtime-main.0c546f44.js",
     "runtime-main.js.map": "/landing-page-practice/static/js/runtime-main.0c546f44.js.map",
     "static/js/2.d04b630d.chunk.js": "/landing-page-practice/static/js/2.d04b630d.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.61fee708.chunk.js": "/landing-page-practice/static/js/3.61fee708.chunk.js",
     "static/js/3.61fee708.chunk.js.map": "/landing-page-practice/static/js/3.61fee708.chunk.js.map",
     "index.html": "/landing-page-practice/index.html",
-    "static/css/main.4f43f622.chunk.css.map": "/landing-page-practice/static/css/main.4f43f622.chunk.css.map",
+    "static/css/main.c8f60cbc.chunk.css.map": "/landing-page-practice/static/css/main.c8f60cbc.chunk.css.map",
     "static/js/2.d04b630d.chunk.js.LICENSE.txt": "/landing-page-practice/static/js/2.d04b630d.chunk.js.LICENSE.txt",
     "static/media/icon-arrow-down.979ef07a.svg": "/landing-page-practice/static/media/icon-arrow-down.979ef07a.svg",
     "static/media/icon-facebook.101bd07e.svg": "/landing-page-practice/static/media/icon-facebook.101bd07e.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.0c546f44.js",
     "static/js/2.d04b630d.chunk.js",
-    "static/css/main.4f43f622.chunk.css",
-    "static/js/main.7378fd5f.chunk.js"
+    "static/css/main.c8f60cbc.chunk.css",
+    "static/js/main.89c44774.chunk.js"
   ]
 }
