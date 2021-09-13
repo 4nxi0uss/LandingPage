@@ -42,7 +42,7 @@ const BlockOfText = () => {
                 {window.innerWidth <= 991 ? <img className="graphicDesignImg" src={graphicDesignMoblie} alt="graphic Design" /> : <img className="graphicDesignImg" src={graphicDesign} alt="graphic Design" />}
                 <div className="graphicDesignContent">
                     <h2 className="graphicDesignHeader">Graphic Design</h2>
-                    <p className="graphicDesignText">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+                    <p className="graphicDesignText">Great design makes you memorable. We deliver artwork that underscores your brand message and&nbsp;captures potential clients’ attention.</p>
                 </div>
             </div>
 
