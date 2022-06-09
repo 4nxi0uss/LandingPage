@@ -4,7 +4,6 @@ import thomas from '../../../../img/image-thomas.jpg'
 
 import './ClientTestimonials.scss'
 
-
 const ClientTestimonials = () => {
     return (
         <section className='clientTestimonials'>
