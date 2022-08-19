@@ -1,4 +1,3 @@
-
 import Logo from '../../img/logoFooter.svg'
 import fb from '../../img/icon-facebook.svg'
 import inst from '../../img/icon-instagram.svg'

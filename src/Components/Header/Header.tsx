@@ -3,9 +3,10 @@ import logo from '../../img/logo.svg'
 import './Header.scss'
 
 const Header = () => {
+
     const burger = document.getElementsByClassName('menu-btn')
     const mobileNav = document.getElementsByClassName('mobileNav')
-    console.log(window.innerWidth)
+
     return (
         <header className='header'>
 
